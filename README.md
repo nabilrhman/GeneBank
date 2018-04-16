@@ -1,2 +1,2 @@
 # GeneBank
-# CS321
+# CS321 - Spring 18
