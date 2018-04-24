@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c951d8-3c43-4605-a0a1-b44e04bbfb38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/GeneBankCreateBTree.java" afterPath="$PROJECT_DIR$/src/GeneBankCreateBTree.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeCache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeCacheNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/DNA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankConvert.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankCreateBTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankSearch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/QueryGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/TreeObject.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,7 +173,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="469" />
     <option name="y" value="124" />
     <option name="width" value="1400" />
@@ -347,15 +355,15 @@
       <updated>1523911338086</updated>
       <workItem from="1523911362213" duration="790000" />
       <workItem from="1524552481199" duration="421000" />
-      <workItem from="1524553361257" duration="4382000" />
+      <workItem from="1524553361257" duration="4952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5593000" />
+    <option name="totallyTimeSpent" value="6163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -367,7 +375,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
