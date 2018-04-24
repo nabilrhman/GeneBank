@@ -1,7 +1,10 @@
 /**
- * Creates a BTree from a user provided gbk file.
- * @author nabilr
+ * Creates a BTree from a gbk file.
+ *
  */
-public class GeneBankCreateBTree
-{
+public class GeneBankCreateBTree {
+	
+
 }
+
+
