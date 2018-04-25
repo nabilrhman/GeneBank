@@ -1,7 +1,4 @@
-import java.io.RandomAccessFile;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class BTree
 {
@@ -263,7 +260,37 @@ public class BTree
         }
     }
 
-    //TODO: Write an in-order traversal of the tree to a FileWriter.
+    /**
+     * Writes an in-order traversal of the tree to a FileWriter.
+     *
+     * @param node   BTreeNode to traverse
+     * @param writer FileWriter to write to
+     * @throws IOException
+     */
+    public void inOrderPrintToWriter(BTreeNode node, PrintWriter writer, int sequenceLength) throws IOException
+    {
+        GeneBankConvert gbc = new GeneBankConvert();
+        for (int i = 0; i < node.getN(); i++)
+        {
+            writer.print(node.getKey(i).getFrequency() + " ");
+            writer.println(gbc.convertLongToString(node.getKey(i).getData(), sequenceLength));
+        }
+        if (!node.isLeaf())
+        {
+            for (int i = 0; i < node.getN() + 1; ++i)
+            {
+                int offset = node.getChild(i);
+                BTreeNode y = readNode(offset);
+                inOrderPrintToWriter(y, writer, sequenceLength);
+
+                if (i < node.getN())
+                {
+                    writer.print(node.getKey(i).getFrequency() + " ");
+                    writer.println(gbc.convertLongToString(node.getKey(i).getData(), sequenceLength));
+                }
+            }
+        }
+    }
 
 
     public void writeNode(BTreeNode n, int offset)

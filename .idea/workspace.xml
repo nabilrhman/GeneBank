@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2c951d8-3c43-4605-a0a1-b44e04bbfb38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTree.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeCacheNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/BTreeTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/DNA.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankConvert.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankCreateBTree.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankSearch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/QueryGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/TreeObject.class" afterPath="" />
-    </list>
+    <list default="true" id="d2c951d8-3c43-4605-a0a1-b44e04bbfb38" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,17 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneBankCreateBTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeneBankCreateBTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BTreeNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BTreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="799">
@@ -79,15 +57,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6881">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="480">
+              <caret line="309" column="57" lean-forward="true" selection-start-line="309" selection-start-column="57" selection-end-line="309" selection-end-column="57" />
+              <folding>
+                <element signature="e#6586#6587#0" expanded="true" />
+                <element signature="e#6613#6614#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneBankConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeneBankConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneBankCreateBTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeneBankCreateBTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6688#6689#0" expanded="true" />
-                <element signature="e#6715#6716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,13 +156,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/BTreeTest.java" />
         <option value="$PROJECT_DIR$/src/GeneBankSearch.java" />
-        <option value="$PROJECT_DIR$/src/GeneBankConvert.java" />
         <option value="$PROJECT_DIR$/src/BTreeNode.java" />
         <option value="$PROJECT_DIR$/src/BTreeCacheNode.java" />
         <option value="$PROJECT_DIR$/src/BTreeCache.java" />
         <option value="$PROJECT_DIR$/src/TreeObject.java" />
-        <option value="$PROJECT_DIR$/src/GeneBankCreateBTree.java" />
+        <option value="$PROJECT_DIR$/src/GeneBankConvert.java" />
         <option value="$PROJECT_DIR$/src/BTree.java" />
+        <option value="$PROJECT_DIR$/src/GeneBankCreateBTree.java" />
       </list>
     </option>
   </component>
@@ -173,7 +172,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="469" />
     <option name="y" value="124" />
     <option name="width" value="1400" />
@@ -355,16 +354,15 @@
       <updated>1523911338086</updated>
       <workItem from="1523911362213" duration="790000" />
       <workItem from="1524552481199" duration="421000" />
-      <workItem from="1524553361257" duration="4952000" />
+      <workItem from="1524553361257" duration="8826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6163000" />
+    <option name="totallyTimeSpent" value="10037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -375,7 +373,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,9 +425,8 @@
         <state relative-caret-position="34">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6688#6689#0" expanded="true" />
-            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6613#6614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,72 +480,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneBankConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneBankSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneBankCreateBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6881">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6688#6689#0" expanded="true" />
-            <element signature="e#6715#6716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BTreeCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
-          <folding>
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#2999#3000#0" expanded="true" />
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3198#3199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,6 +508,14 @@
             <element signature="e#508#509#0" expanded="false" />
             <element signature="e#535#536#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneBankSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="61" column="61" lean-forward="true" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,6 +558,60 @@
             <element signature="e#1784#1785#0" expanded="true" />
             <element signature="e#2211#2212#0" expanded="true" />
             <element signature="e#2242#2243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BTreeCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+          <folding>
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2528#2529#0" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#2999#3000#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3198#3199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneBankConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneBankCreateBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="309" column="57" lean-forward="true" selection-start-line="309" selection-start-column="57" selection-end-line="309" selection-end-column="57" />
+          <folding>
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6613#6614#0" expanded="true" />
           </folding>
         </state>
       </provider>
