@@ -10,7 +10,8 @@ public class GeneBankSearch {
 
 	private static boolean useCache = false;
 	private static String btreeFile, queryFile;
-	private static int cacheSize, debugLevel = 0;
+	private static int cacheSize, debugLevel1 = 0;
+
 
 	public static void main(String[] args) {
 
@@ -36,7 +37,7 @@ public class GeneBankSearch {
 
 		//Set debug level if there are 5 arguments
 		if(args.length == 5)
-			debugLevel = Integer.parseInt(args[4]);
+			debugLevel1 = Integer.parseInt(args[4]);
 
 		//find degree and sequence length
 		String seq = "", deg = "";
@@ -59,25 +60,25 @@ public class GeneBankSearch {
 
 		int degree = Integer.parseInt(deg);
 		int sequence = Integer.parseInt(seq);
-		//System.out.println("degree: " + degree);
-		//System.out.println("sequence length: " + sequence);
+		System.out.println("degree: " + degree);
+		System.out.println("sequence length: " + sequence);
 		
 		try {
+			Boolean flag=false;
 			GeneBankConvert gbc = new GeneBankConvert();
-			BTree tree = new BTree(degree, new File(btreeFile), useCache, cacheSize);
+			BTree tree = new BTree(degree, new File(btreeFile.substring(0, args[1].indexOf(".btree"))), useCache, cacheSize);
 			Scanner scan = new Scanner(new File(queryFile));
 			
 			while(scan.hasNext()) {
 				String query = scan.nextLine(); //sequence to search for
 				
 				long q = gbc.convertStringToLong(query);
-				//System.out.println(q);
-				//String converted = gbc.convertLongToString(q, sequence);
-				//System.out.println(converted);
+				String converted = gbc.convertLongToString(q, sequence);
 				TreeObject result = tree.search(tree.getRoot(), q);
 				
 				if(result != null) 
 					System.out.println(gbc.convertLongToString(result.getData(), Integer.parseInt(seq))+": "+ result.getFrequency());
+					
 			}
 			
 			scan.close();
