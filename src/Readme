@@ -1,0 +1,76 @@
+
+
+Files:
+
+Concept:
+The Concept of this Project was to apply a BTree to a real world application which in our case was a Gene file 
+that would input specific characters into structures to form protein combinations. The goal was to take the sequence
+of characters and convert them to a key which would then be stored into a ROM that could be called upon later. And
+for a user to search through the BTree to find any combinations of keys that could match a protein sequence that
+the user inputted.
+Usage:
+For GeneBankCreate <Usecache> <degree> <gbk file> <sequence length> [<cache size>] [<debuglevel>]
+For GeneBankSearch <0/1(no/with Cache)> <btree file> <query file> [<cache size>] [<debug level>]
+Debugging: 
+The debugging process prominently occured during the testing of the GeneBankSearch, there were issues
+with the initialization of Variables within the class. I.E BTree tree would not initialzie due to the file not
+even though it existed.
+Journal:
+We kept track of our conversations via Slack
+
+Nabil [8:35 PM]
+@Austin Foy Hi Austin. How are you doing? I was wondering if you have an account in GitHub. If you don't have one, 
+create one and let me know your GitHub username and e-mail. I will add you to the repo. (edited)
+
+Austin Foy [8:57 PM]
+I do have a GitHub my Username is AFoy95
+at austinfoy@u.boisestate.edu
+
+Nabil [1:17 AM]
+Added. Please check if you can access it.
+
+Austin Foy [6:56 PM]
+I do have access thank you
+
+Maruf [8:11 PM]
+@Austin Foy Hey Austin, I am sorry that we had some communication gap. I actually wrote the parser a couple of days 
+back but I forgot to upload them on GitHub. I saw that you wrote it too. Either way, they pretty much look the same. 
+Would you mind taking a look at the origin master on our GitHub repo? I have done GeneBankCreateTree too. Thanks.
+Austin Foy [9:54 PM]
+@Maruf Hey Maruf I actually tested your code alongside Nabil's BTree code.The code for the GeneBankCreate.java whenever 
+I  would run the inorder print method from Nabil's BTree class would receive a blank output
+
+Austin Foy [10:00 PM]
+I am going to modify the code on my own computer assure proper results
+
+Nabil [2:11 AM]
+@Austin Foy Hey Austin, that sounds awesome! I was a bit confused when I saw similar codes from you two. I wasn't sure whose 
+code I was supposed to use. I used Maruf's at first. But, don't worry. We can also try using yours too. I am sorry that we didn't 
+communicate with you before we started writing the codes. Feel free to let me know if you need any help. I am going to work on the 
+rest tomorrow and try figuring out what the problem is.
+
+Austin Foy [9:55 AM]
+Good news I have tested the BTree search and have found that the reason for a failure that has to do with the way it was inputted 
+from the command line,initially it would never create the btree because the input of in the command line would be a large string 
+and there would be no parsing of the sequence length and degree. Then it would fail to find the file to read from, so i added a 
+parser that looked for the gbk mark to read data. And now it works for the most part
+
+Austin Foy [1:07 PM]
+Hey guys are we ready to submit or have we already submitted
+
+Nabil [1:11 PM]
+Has anyone written the README? If not, I can work on that and get it ready for the submission. When do you guys want to submit? 
+Do you know when the deadline is? 'Cause on the instruction, it says that it's at the end of the semester which should be 
+by this Friday.
+
+Austin Foy [3:24 PM]
+I have written part of the readme for my portion but not the total product, I think we submit once we get the BTreeSearch to work 
+a little better, if we cant do that we submit friday before mdnight
+
+Nabil [1:28 PM]
+Hey Austin, I have just merged your pull requests. For some reason, the program is not working. Can you send me the working codes 
+you have on your computer? Just make a zip file of the whole project, and give me a link to download.
+Final Thoughts:
+Austin Foy:
+  I felt that this project was a good lesson in general about the need to communicate effectively it was hard for us to do so even
+  with a Slack and emails. But having said that I thought this project was fun and challenging
