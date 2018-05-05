@@ -1,3 +1,8 @@
+/**
+ * The cache class used by BTreeCache
+ *
+ * @autor nabilrhman
+ */
 public class BTreeCacheNode
 {
     private BTreeNode data;

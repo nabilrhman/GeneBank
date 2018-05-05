@@ -1,4 +1,4 @@
-  import java.io.BufferedReader;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -6,10 +6,12 @@ import java.io.PrintWriter;
 import java.io.IOException;
 
 /**
- * Create a BTree from a gbk file.
+ * Creates a BTree from a gbk file.
+ *
+ * The driver class for the GeneBankCreateBTree program
+ * that creates a BTree from a user-specified .gbk file.
  * 
  * @author marufahmed
- *
  */
 public class GeneBankCreateBTree {
 
@@ -26,7 +28,6 @@ public class GeneBankCreateBTree {
 			badUsage();
 		}
 
-		// <cache>
 		boolean useCache = false;
 
 		try {
@@ -38,7 +39,6 @@ public class GeneBankCreateBTree {
 			badUsage();
 		}
 
-		// <degree>
 		int BTreeDegree = 0;
 
 		try {
@@ -51,7 +51,6 @@ public class GeneBankCreateBTree {
 		}
 		int sequenceLength = 0;
 
-		// <sequence length>
 		try {
 			int len = Integer.parseInt(args[3]);
 			if (len < 1 || len > MAX_SEQUENCE_LENGTH) badUsage();
@@ -60,7 +59,6 @@ public class GeneBankCreateBTree {
 			badUsage();
 		}
 
-		// [<cache size>] [<debug level>]
 		int cacheSize = 0;
 		int debugLevel = 0;
 
@@ -85,12 +83,10 @@ public class GeneBankCreateBTree {
 			}
 		}
 
-		// <gbk file>
 		File gbk = new File(args[2]);
 
-		// XXX: there's got to be a better class for this.
 		BufferedReader in = null;
-		Parser parse=new Parser();
+
 		try {
 			in = new BufferedReader(new FileReader(gbk));
 		} catch (FileNotFoundException e) {
@@ -98,6 +94,7 @@ public class GeneBankCreateBTree {
 		}
 	    String BTreeFile = (gbk + ".btree.data." + sequenceLength + "." + BTreeDegree);
 		BTree tree = new BTree(BTreeDegree, BTreeFile, useCache, cacheSize);
+		Parser parse = new Parser(tree);
 
         String line = null;
 		line = in.readLine().toLowerCase().trim();
@@ -106,9 +103,9 @@ public class GeneBankCreateBTree {
 		int charPosition = 0;
 		long sequence = 0L;
 
-        while (line != null) { // tried to optimize this, mostly made it ugly
+        while (line != null) {
             if (inSequence) {
-                if (line.startsWith("//")) { // marks the end of the sequence
+                if (line.startsWith("//")) {
                     inSequence = false;
                     sequence = 0;
                     sequencePosition = 0;
@@ -134,11 +131,11 @@ public class GeneBankCreateBTree {
 	                            sequence = ((sequence<<2) | CODE_G);
 	                            if (sequencePosition < sequenceLength) sequencePosition++;
 	                            break;
-	                        case 'n': // end of subsequence
+	                        case 'n':
 	                            sequencePosition = 0;
                                 sequence = 0;
 	                            continue;
-	                        default: // space or number, not part of sequence
+	                        default:
 	                            continue;
                         }
                         if (sequencePosition >= sequenceLength) {
@@ -149,14 +146,13 @@ public class GeneBankCreateBTree {
                 	}
                 	
                 }
-            } else if (line.startsWith("ORIGIN")) { // marks the beginning of a sequence
+            } else if (line.startsWith("ORIGIN")) {
 	            inSequence = true;
 			}
-            // not bothering with the rest of the fields for now
             line = in.readLine();
             charPosition = 0;
 		}
-		// print debug dump
+
 		if (debugLevel > 0) {
 			File dumpFile = new File("dump");
 			dumpFile.delete();
@@ -166,10 +162,7 @@ public class GeneBankCreateBTree {
 			writer.close();
 		}
 
-		// we're done modifying the tree, finalize it
 		if (useCache) tree.flushCache();
-
-	    //tree.inOrderPrint(tree.getRoot());
 		in.close();
 	}
 
@@ -183,6 +176,7 @@ public class GeneBankCreateBTree {
 		System.err.println("[<debug level>]: debugging level (0-1)");
 		System.exit(1);
     }
+
 	public static int getOptimalDegree(){
         double optimum;
         int sizeOfPointer = 4;

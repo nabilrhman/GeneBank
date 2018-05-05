@@ -1,5 +1,6 @@
 /**
- * Converts Long and Strings
+ * Class that converts between String and long integer
+ * representation of gene sequences
  * 
  * @author marufahmed
  */
@@ -7,23 +8,11 @@ public class GeneBankConvert
 {
     private long key = 0;
 
-    /**
-     * Returns the long key
-     *
-     * @return The long key
-     */
     public long getKey()
     {
         return key;
     }
 
-    /**
-     * converts the long sequence into a string
-     *
-     * @param seq            Long sequence to be converted
-     * @param sequenceLength Length of the sequence
-     * @return The converted string from long
-     */
     public String convertLongToString(long seq, int sequenceLength)
     {
         String s = "";
@@ -55,12 +44,6 @@ public class GeneBankConvert
         return s;
     }
 
-    /**
-     * Converts the gene string into a long
-     *
-     * @param seq   Sequence to convert into a long
-     * @return Long representation of the string
-     */
     public long convertStringToLong(String seq)
     {
         seq = seq.toLowerCase();
@@ -68,7 +51,7 @@ public class GeneBankConvert
         for (int i = 0; i < seq.length(); i++)
         {
             if (seq.charAt(i) == 'a')
-            { // 00
+            {
                 if (i == 0)
                 {
                     key = 0;
@@ -80,7 +63,7 @@ public class GeneBankConvert
                 }
             }
             if (seq.charAt(i) == 'c')
-            { // 01
+            {
                 if (i == 0)
                 {
                     key = 1;
@@ -92,7 +75,7 @@ public class GeneBankConvert
                 }
             }
             if (seq.charAt(i) == 'g')
-            { // 10
+            {
                 if (i == 0)
                 {
                     key = 2;
@@ -104,7 +87,7 @@ public class GeneBankConvert
                 }
             }
             if (seq.charAt(i) == 't')
-            { // 11
+            {
                 if (i == 0)
                 {
                     key = 3;

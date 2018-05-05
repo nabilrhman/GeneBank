@@ -1,5 +1,9 @@
 import java.util.Random;
-
+/**
+ * Tests for the BTree class
+ *
+ * @autor nabilrhman
+ */
 public class BTreeTest
 {
     private static Random randomNumGenerator;

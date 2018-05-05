@@ -1,3 +1,9 @@
+/**
+ * Alternative parser class that converts between
+ * String and long integer representation of gene sequences.
+ *
+ * @author afoy
+ */
 public class Parser {
 
 	public Parser(BTree btree){

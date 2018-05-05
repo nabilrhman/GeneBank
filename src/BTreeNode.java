@@ -1,5 +1,9 @@
 import java.util.LinkedList;
-
+/**
+ * The node class used by BTree
+ *
+ * @autor nabilrhman
+ */
 public class BTreeNode
 {
 

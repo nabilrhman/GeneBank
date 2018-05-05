@@ -1,5 +1,10 @@
 import java.io.*;
 
+/**
+ * Implementation of B-Tree
+ *
+ * @author nabilrhman
+ */
 public class BTree
 {
     private int degree;
@@ -68,7 +73,6 @@ public class BTree
     public void insert(long k)
     {
         BTreeNode r = this.root;
-        //System.out.println("inserting " + k);
         int i = r.getN();
         if (i == (2 * degree - 1))
         {
@@ -211,9 +215,7 @@ public class BTree
     public TreeObject search(BTreeNode x, long k)
     {
         int i = 0;
-        //System.out.println("searching for: " + k);
         TreeObject obj = new TreeObject(k);
-        //System.ot.println(x);
         while (i < x.getN() && (obj.compareTo(x.getKey(i)) > 0))
         {
             i++;
@@ -260,13 +262,6 @@ public class BTree
         }
     }
 
-    /**
-     * Writes an in-order traversal of the tree to a FileWriter.
-     *
-     * @param node   BTreeNode to traverse
-     * @param writer FileWriter to write to
-     * @throws IOException
-     */
     public void inOrderPrintToWriter(BTreeNode node, PrintWriter writer, int sequenceLength) throws IOException
     {
         GeneBankConvert gbc = new GeneBankConvert();
@@ -291,7 +286,6 @@ public class BTree
             }
         }
     }
-
 
     public void writeNode(BTreeNode n, int offset)
     {
@@ -451,9 +445,6 @@ public class BTree
         }
     }
 
-    /**
-     * Writes the contents of the cache to the file on disk.
-     */
     public void flushCache()
     {
         if (cache != null)

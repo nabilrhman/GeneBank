@@ -1,3 +1,8 @@
+/**
+ * The object class used by BTree
+ *
+ * @author nabilrhman
+ */
 public class TreeObject implements Comparable<TreeObject>
 {
     private int frequency;
