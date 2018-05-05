@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c951d8-3c43-4605-a0a1-b44e04bbfb38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/GeneBank/GeneBankCreateBTree.class" afterPath="$PROJECT_DIR$/out/production/GeneBank/GeneBankCreateBTree.class" />
-      <change beforePath="$PROJECT_DIR$/src/BTree.java" afterPath="$PROJECT_DIR$/src/BTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeCache.java" afterPath="$PROJECT_DIR$/src/BTreeCache.java" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeCacheNode.java" afterPath="$PROJECT_DIR$/src/BTreeCacheNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeNode.java" afterPath="$PROJECT_DIR$/src/BTreeNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/BTreeTest.java" afterPath="$PROJECT_DIR$/src/BTreeTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/GeneBankConvert.java" afterPath="$PROJECT_DIR$/src/GeneBankConvert.java" />
-      <change beforePath="$PROJECT_DIR$/src/GeneBankCreateBTree.java" afterPath="$PROJECT_DIR$/src/GeneBankCreateBTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/GeneBankSearch.java" afterPath="$PROJECT_DIR$/src/GeneBankSearch.java" />
-      <change beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
-      <change beforePath="$PROJECT_DIR$/src/Readme" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/TreeObject.java" afterPath="$PROJECT_DIR$/src/TreeObject.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,8 +128,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="466">
+                <caret line="178" column="223" lean-forward="false" selection-start-line="178" selection-start-column="223" selection-end-line="178" selection-end-column="223" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -204,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/GeneBankCreateBTree.java" />
         <option value="$PROJECT_DIR$/src/Parser.java" />
         <option value="$PROJECT_DIR$/src/TreeObject.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -416,12 +405,12 @@
       <workItem from="1524552481199" duration="421000" />
       <workItem from="1524553361257" duration="8826000" />
       <workItem from="1524696630009" duration="120000" />
-      <workItem from="1525544550213" duration="2862000" />
+      <workItem from="1525544550213" duration="3046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13019000" />
+    <option name="totallyTimeSpent" value="13203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1050" extended-state="0" />
@@ -913,8 +902,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="466">
+            <caret line="178" column="223" lean-forward="false" selection-start-line="178" selection-start-column="223" selection-end-line="178" selection-end-column="223" />
             <folding />
           </first_editor>
           <second_editor />
