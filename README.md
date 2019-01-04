@@ -1,9 +1,9 @@
 
-# CS 321 - GeneBank
+# CS 321 Final Project - GeneBank
 
-Austin Foy, Maruf Ahmed, Nabil Rahman
-Instructor: Steven Cutchin
-Spring 2018
+Austin Foy, Maruf Ahmed, Nabil Rahman 
+| Instructor: Steven Cutchin 
+| Spring 2018
 
 ## Included files
 
