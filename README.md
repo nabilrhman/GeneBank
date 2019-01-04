@@ -1,5 +1,5 @@
 
-# CS 321 - GeneBank Readme
+# CS 321 - GeneBank
 
 Austin Foy, Maruf Ahmed, Nabil Rahman
 Instructor: Steven Cutchin
